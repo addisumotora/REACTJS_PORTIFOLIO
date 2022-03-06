@@ -1,0 +1,124 @@
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 10%;
+}
+.hobbies-txt{
+    padding-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:50%;
+}
+.hobbies-txt h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: orangered;
+}
+
+.cards-hobis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-hobis-text{
+    display: flex;
+    flex-direction: column;
+    border:2px solid #fff;
+    background-color: white;
+    height: 70vh;
+    width:70vh;
+    margin: 10px;
+    justify-content: center;
+    border-radius:20px;
+}
+.card-hobis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:2px solid #fff;
+    background-color: white;
+    height: 70vh;
+    width:70vh;
+    margin: 10px;
+    justify-content: center;
+    border-radius:20px;
+}
+.card-hobis-text h4{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(219, 39, 39);
+}
+.card-hobis-text p{
+    padding:0 30px;
+    font-family: Gabriola;
+    font-size: 20px;
+}
+
+.hobis-img{
+    border-radius: 20px;
+    height: 70vh;
+    width:70vh;
+}
+.fa{
+    color: rgb(212, 0, 255);
+    font-size: 30px;
+    cursor: pointer;
+}
+.butn{
+    padding-top: 10px;
+    text-align: center;
+}
+.butn button{
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    border-color: rgb(212, 0, 255);
+    background-color: rgb(212, 0, 255);
+    cursor:pointer;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .card-hobis{
+       width: 50vh;
+    }
+    .card-hobis-text{
+        width: 50vh;
+     }
+    .hobis-img{
+        width: 50vh;
+    }
+    .hobbies-txt{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 750px){
+    .card-hobis-text{
+        display: none;
+    }
+    .card-hobis{
+        width:70vh;
+        height: 70vh;
+    }
+    .hobis-img{
+        width: 70vh;
+    }
+}
+@media only screen and (max-width: 560px){
+    .card-hobis{
+        width:50vh;
+        height: 50vh;
+    }
+    .hobis-img{
+        width: 50vh;
+    }
+    .hobbies-txt{
+        width: 65%;
+    }
+}
