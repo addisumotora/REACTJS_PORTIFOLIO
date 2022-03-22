@@ -3,11 +3,12 @@ import './navbar.css'
 import { useEffect, useState } from 'react'
 import { TiDeleteOutline, TiThMenu } from 'react-icons/ti';
 import { Link } from 'react-router-dom';
-import logo from '../images/logos/logo5.png'
+import logo from '../images/logos/my logo.png'
 
 
 function Navbar() {
   const [smallSize,setSmallSize] = useState(false)
+
   return (
     <div className='navbar'>
         <div className='logo'>

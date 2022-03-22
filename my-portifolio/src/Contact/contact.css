@@ -35,7 +35,7 @@
     display: flex;
     flex-direction: column;
    border-style: none;
-   width: 90%;
+   max-width: 90%;
    padding-left: 20px;
 
 }
@@ -81,6 +81,7 @@
 } 
 .medi:hover{
     transform: scale(1,2);
+    transition: all 0.5s ease-in-out
 }
 @media only screen and (max-width: 800px){
     .contact-img{

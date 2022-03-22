@@ -17,7 +17,7 @@
 }
 .skillIntro h1{
     font-family: 'Courier New', Courier, monospace;
-    color: orangered;
+    color: hsl(205, 78%, 60%);
 }
 .cards{
     display: flex;

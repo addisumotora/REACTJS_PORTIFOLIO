@@ -4,7 +4,7 @@
     align-items: center;
 }
 .about h1{
-    color: orangered;
+    color: hsl(205, 78%, 60%);
     font-family: 'Courier New', Courier, monospace;
 }
 .about-left{

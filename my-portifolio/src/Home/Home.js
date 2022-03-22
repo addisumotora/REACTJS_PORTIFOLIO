@@ -21,7 +21,7 @@ function Home() {
                 <a href='https://www.linkedin.com/in/addisu-motora-890644208/'><BsLinkedin className='media'/></a>
             </div>
             <div className='home-intro'>
-                <h1 className='hello'>Hello I'm</h1>
+                <h1 className='hello' id='home'>Hello I'm</h1>
                 <h1 className='name' data-text="Addisu Motora" id='name'>Addisu Motora</h1>
                  <div className='wrapper'>
                      <div className='static-txt'>I'm a</div>

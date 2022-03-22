@@ -26,6 +26,10 @@
     display: flex;
     color: white;
 }
+.navbar-links .link:hover{
+    transform: scale(1,2);
+    transition: all 0.5s ease-in-out;
+}
 .menu{
     background-color: rgb(224, 228, 231);
     margin-top: 22px;
@@ -49,7 +53,11 @@
         display: none;
     }
     .menu{
-        display: flex;
+        display: flex; 
+    }
+    .menu:hover{
+        transform: rotate(90deg);
+        transition: all 0.5s ease-out;
     }
     .del{
         display: flex;
@@ -60,7 +68,6 @@
         background-color: #005469;
         left:0;
         top: 70px;
-        transition: all 0.5s ease-out;
         list-style: none;
         width:100%;
     }
@@ -70,7 +77,6 @@
         text-align: center;
         padding: 10px;
         width: 100%;
-        transition: all 0.5 ease;
         z-index: 0;
     }
 }
